@@ -19,5 +19,15 @@ console.log(userSurname);
 
 /* COLORE */
 
-const userFavColor = prompt("Qual è il tuo colore preferito?")
-console.log(userFavColor)
+const userFavColor = prompt("Qual è il tuo colore preferito?");
+console.log(userFavColor);
+
+/* element presentation */
+
+const presentationElement = document.getElementById("presentation");
+console.log(presentationElement)
+
+
+/* inner html */
+
+presentationElement.innerHTML=`${userName}${userSurname}${userFavColor}23`
